@@ -6,6 +6,7 @@ function theBeatlesPlay(musicians, instruments) {
   }
   return beatles
 }
+<<<<<<< HEAD
 function johnLennonFacts(array) {
   var newFacts=[];
   var i=0;
@@ -14,6 +15,16 @@ function johnLennonFacts(array) {
     i++;
   }
   return newFacts;
+=======
+function johnLennonFacts(facts) {
+  var lennon=[];
+  var i=0;
+  while(i<facts.length) {
+    lennon.push(`${facts}` + "!!!");
+    i++;
+  }
+  return facts;
+>>>>>>> b2c710fb7e9c3262c63c5a74001b0d5d9c5772e3
 }
 function iLoveTheBeatles(n) {
   var beatles=[];
